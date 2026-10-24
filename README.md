@@ -146,7 +146,7 @@ museo-website/
 ## Despliegue
 
 - **Control de versiones:** el proyecto está alojado en GitHub: https://github.com/williamp11/museo-website
-- **Publicación:** GitHub Pages. Sitio publicado: [URL de GitHub Pages]
+- **Publicación:** GitHub Pages. Sitio publicado: (https://williamp11.github.io/museo-website/)
 
 ---
 
