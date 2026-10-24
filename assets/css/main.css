@@ -1956,7 +1956,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #2ed1dd;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2703,15 +2703,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgb(146, 88, 53);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgb(20, 11, 1);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(146, 88, 53);
 		}
 
 		.spotlight:nth-child(4) {
@@ -2817,8 +2817,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #140b01
+ ;
+			color: #050505;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2980,7 +2981,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #140b01;
 			color: #d3d4e4;
 		}
 
