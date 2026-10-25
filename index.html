@@ -11,27 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Museo Presley Norton de Guayaquil: patrimonio arqueológico, histórico y cultural en la Villa Rosa Herlinda. Entrada gratuita." />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			/* Mapa de ubicación (sección Visita y Horarios) */
-			#three .map-container {
-				display: block;
-				width: 100%;
-				max-width: 56em;
-				margin: 2.5em auto 1.5em auto;
-				border: solid 2px #925835;
-				border-radius: 3px;
-				overflow: hidden;
-			}
-			#three .map-container iframe {
-				display: block;
-				width: 100%;
-				height: 26em;
-				border: 0;
-			}
-			@media screen and (max-width: 736px) {
-				#three .map-container iframe { height: 20em; }
-			}
-		</style>
+		<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🏺%3C/text%3E%3C/svg%3E" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
@@ -125,11 +105,13 @@
 							</header>
 
 							<!-- Mapa de ubicación -->
-							<div class="map-container">
-								<iframe title="Mapa con la ubicación del Museo Presley Norton, en la Av. 9 de Octubre y Carchi, Guayaquil" src="https://www.google.com/maps?q=Museo+Presley+Norton,+Av.+9+de+Octubre+y+Carchi,+Guayaquil,+Ecuador&amp;hl=es&amp;z=17&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+							<div style="display:flex; justify-content:center; margin:2.5em 0 1.5em 0;">
+								<div class="map-container" style="width:100%; max-width:56em; border:solid 2px #925835; border-radius:3px; overflow:hidden;">
+									<iframe title="Mapa con la ubicación del Museo Presley Norton, en la Av. 9 de Octubre y Carchi, Guayaquil" width="100%" height="420" style="display:block; width:100%; height:clamp(18em, 60vw, 26em); border:0; margin:0;" src="https://www.openstreetmap.org/export/embed.html?bbox=-79.8988%2C-2.1892%2C-79.8918%2C-2.1860&amp;layer=mapnik&amp;marker=-2.1876202%2C-79.8953927" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								</div>
 							</div>
 							<ul class="actions special">
-								<li><a href="https://www.google.com/maps/search/?api=1&amp;query=Museo+Presley+Norton+Guayaquil" class="button primary" target="_blank" rel="noopener noreferrer">Cómo llegar en Google Maps</a></li>
+								<li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=-2.1876202,-79.8953927" class="button primary" target="_blank" rel="noopener noreferrer">Cómo llegar en Google Maps</a></li>
 							</ul>
 						</div>
 					</section>
